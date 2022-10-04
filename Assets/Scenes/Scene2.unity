@@ -418,7 +418,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   score: {fileID: 0}
   zahl: 0
-  soundPlayer: {fileID: 0}
 --- !u!81 &247807348
 AudioListener:
   m_ObjectHideFlags: 0
@@ -1136,7 +1135,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   score: {fileID: 0}
   zahl: 0
-  soundPlayer: {fileID: 1037744501}
 --- !u!1 &1257862267
 GameObject:
   m_ObjectHideFlags: 0
@@ -1232,13 +1230,13 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 1054141335}
-        m_TargetAssemblyTypeName: uiHelloWorldScript, Assembly-CSharp
-        m_MethodName: playSound
-        m_Mode: 1
+      - m_Target: {fileID: 1037744501}
+        m_TargetAssemblyTypeName: UnityEngine.AudioSource, UnityEngine
+        m_MethodName: PlayOneShot
+        m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_ObjectArgument: {fileID: 8300000, guid: 2c857eb1228ede14286ad456878f7bef, type: 3}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.AudioClip, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -1313,7 +1311,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   score: {fileID: 205475896}
   zahl: 0
-  soundPlayer: {fileID: 0}
 --- !u!4 &1985051554
 Transform:
   m_ObjectHideFlags: 0
