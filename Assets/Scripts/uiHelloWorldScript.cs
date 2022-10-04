@@ -25,9 +25,4 @@ public class uiHelloWorldScript : MonoBehaviour
         score.text = zahl.ToString();
     }
 
-    public void playSound()
-    {
-        soundPlayer.Play();
-    }
-
 }
