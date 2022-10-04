@@ -1,6 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
-using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 using UnityEngine;
 
@@ -27,6 +24,5 @@ public class uiHelloWorldScript : MonoBehaviour
         zahl = zahl - 1;
         score.text = zahl.ToString();
     }
-
 
 }
