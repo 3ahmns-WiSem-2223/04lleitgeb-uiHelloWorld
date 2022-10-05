@@ -1,9 +1,10 @@
 using UnityEngine.SceneManagement;
 using UnityEngine;
+using TMPro;
 
 public class uiHelloWorldScript : MonoBehaviour
 {
-    public TMPro.TextMeshProUGUI score;
+    public TextMeshProUGUI score;
     public int zahl;
 
     public void nextScene()
